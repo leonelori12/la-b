@@ -1,0 +1,5 @@
+a) Listar y explicar cada uno de los estados de archivos (son 4) que tenemos
+Staged:son archivos ubicados en el Staging Area. Viven registrados dentro de Git aunque no sus últimos cambios.ejecutando commit se guardan definitivamente los ultimos cambios.
+Untracked:archivos que nunca han sido afectados por git add, así que Git no tiene registros de su existencia.ejecutando git add pasa al staging area.
+unmodified:registrados completamente en el git directory. pasan al Working Directory usando el comando push. Al ser removidos estos vuelven a ser Untracked.
+modified:cuando un archivo queda editado por completo termina subido al Staging Area con el comando pull. 
